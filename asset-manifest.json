@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/game-rate/static/css/main.e5d61551.chunk.css",
+    "main.js": "/game-rate/static/js/main.b6e1f365.chunk.js",
+    "main.js.map": "/game-rate/static/js/main.b6e1f365.chunk.js.map",
+    "runtime-main.js": "/game-rate/static/js/runtime-main.2d4ea7cd.js",
+    "runtime-main.js.map": "/game-rate/static/js/runtime-main.2d4ea7cd.js.map",
+    "static/js/2.de9f0877.chunk.js": "/game-rate/static/js/2.de9f0877.chunk.js",
+    "static/js/2.de9f0877.chunk.js.map": "/game-rate/static/js/2.de9f0877.chunk.js.map",
+    "index.html": "/game-rate/index.html",
+    "static/css/main.e5d61551.chunk.css.map": "/game-rate/static/css/main.e5d61551.chunk.css.map",
+    "static/js/2.de9f0877.chunk.js.LICENSE.txt": "/game-rate/static/js/2.de9f0877.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d4ea7cd.js",
+    "static/js/2.de9f0877.chunk.js",
+    "static/css/main.e5d61551.chunk.css",
+    "static/js/main.b6e1f365.chunk.js"
+  ]
+}
