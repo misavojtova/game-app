@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  font-family: "Josefin Sans";
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: -webkit-center;
+  background-color: #14142c;
+}
+
+.games-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bg-img {
+  height: auto;
+  width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  background-image: linear-gradient(to right, #005eb2 0%, #61f7ffe3 100%);
+  border-radius: 20px;
+  min-width: 190px;
+  max-width: 200px;
+  min-height: 250px;
+  max-height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 5vh 2vh;
+  padding: 0.5rem 0;
+}
+
+.detail-cont {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.detail-card {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 20px;
+  max-width: 480px;
+  width: 80vw;
+  height: 90vh;
+  max-height: 640px;
+  background-image: linear-gradient(to right, #005eb2 0%, #61f7ffe3 100%);
+  position: relative;
+}
+
+.detail-card > div {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transform: translateY(20px);
+}
+
+.return {
+  top: 0;
+  right: 2.5vh;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+  color: #1b1b38;
+}
+.btn {
+  background-color: #1b1b38;
+  color: #67cff2;
+  -webkit-box-shadow: 10px 10px 15px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 15px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 15px -8px rgba(0, 0, 0, 0.75);
+  border: none;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.btn.m {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 1000px) {
+  .games-wrap {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .detail-card {
+    height: 70%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .detail-card {
+    height: 60%;
+    width: 95%;
+  }
+}
